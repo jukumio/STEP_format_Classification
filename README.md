@@ -47,33 +47,16 @@ The program implements the classification and retrieval of 3D models through an 
 
 For the graph based approach, to convert a 3D STEP dataset into a Graph dataset, run the script:    
 ```
-$ python step_2_graph.py
+$ python -m Graph_convertion.class_s2g 
 ```    
 It takes two arguments: `--path_stp` specifies the path of the input STEP dataset and `--path_graph` specifies the output path where the graph dataset will be saved.
 Then for the classification task on the relised dataset run the script:   
 ```
-$ python train_GCN.py
+$ python custom_class_train.py
 ```
 It takes 5 arguments: `--run_folder` indicates the run directory, `--learning_rate` sets the strating learning rate, `--batch_size` sets the batch size, `--num_epochs` sets the number of traing epochs, `--dropout` the dropout probability.    
 Alternatively, we provide the `Graph_classification.ipynb` ipython notebook, that performs both the dataset conversion and graph classification task.   
 A Graph Convolutional Neural Network model trained for the classification task in this way can then be used for the retrieval task by running the `Graph_retrieval.ipynb` script.
-
-## Multi-views classification 
-
-For the multi 2D views  based approach, to convert each 3D model into a 12 2D views,  run the script:
-```
-$ python step_2_multiview.py 
-```
-It takes two arguments: `--path_stp` specifies the path of the input STEP dataset and `--path_multiview` specifies the output path where the multi-views dataset will be saved.   
-Then for the classification task run the script:
-```
-$ python train_mvcnn.py
-```
-It takes 10 arguments: `--num_models` indicates the number of models per class, `--lr` sets the strating learning rate, `--bs` sets the batch size, `--weight_decay` sets the weight decay ratio of the learning rate, `--num_epoch` sets the number of training epochs, `--no_pretraining` indicates if the base net will start pretrained or not, `--cnn_name` the net name, num_views the number of 2D views, `--train_path` specifies the path of the train data, `--test_path` specifies the path of the test data, `--val_path` specifies the path of the validation data.   
-Alternatively, we provide a the `MultiViews_Classification.ipynb.ipynb` ipython notebook, that performs both the dataset conversion and multi-views classification task. 
-Similarly to the graph-based approach, a model trained for classification task can then be used for the 3D retrieval task.
-
----
 
 # Repository Requirements
 
