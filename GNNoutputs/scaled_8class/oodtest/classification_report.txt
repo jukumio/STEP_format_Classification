@@ -1,0 +1,29 @@
+CLASSIFICATION ANALYSIS REPORT
+============================================================
+
+Overall Accuracy: 0.2728 (27.28%)
+Total Samples: 898
+Number of Classes: 7
+
+True Class Distribution:
+-------------------------
+Hinges: 92 (10.2%)
+Ironbar_like: 332 (37.0%)
+Power_transmission: 46 (5.1%)
+Screw_like: 428 (47.7%)
+
+Detailed Classification Report:
+-----------------------------------
+                    precision    recall  f1-score   support
+
+          Brackets     0.0000    0.0000    0.0000         0
+            Hinges     0.0000    0.0000    0.0000        92
+      Ironbar_like     0.5714    0.0361    0.0680       332
+              Nuts     0.0000    0.0000    0.0000         0
+Power_transmission     0.0000    0.0000    0.0000        46
+        Screw_like     0.8826    0.5444    0.6734       428
+ Toroidal_fastener     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.2728       898
+         macro avg     0.2077    0.0829    0.1059       898
+      weighted avg     0.6319    0.2728    0.3461       898

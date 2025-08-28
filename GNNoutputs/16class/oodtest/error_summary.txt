@@ -1,0 +1,25 @@
+ERROR ANALYSIS SUMMARY
+==================================================
+
+Total Errors: 877 out of 898 samples
+Error Rate: 97.66%
+
+Most Common Error Types:
+------------------------------
+Shafts → Nuts: 121 (13.8%)
+Shafts → Bushings: 105 (12.0%)
+Hex_head_screw → Pipes: 85 (9.7%)
+Hinges → Gears: 76 (8.7%)
+Shafts → Pipes: 69 (7.9%)
+Bolts → Hex_head_screw: 47 (5.4%)
+Bolts → Hinges: 45 (5.1%)
+Hex_head_screw → Brackets: 34 (3.9%)
+Hex_head_screw → Slotted_head_screw: 31 (3.5%)
+Hex_head_screw → Gears: 27 (3.1%)
+
+Confidence Distribution of Errors:
+----------------------------------------
+Mean confidence: 0.530
+Median confidence: 0.458
+Min confidence: 0.136
+Max confidence: 1.000

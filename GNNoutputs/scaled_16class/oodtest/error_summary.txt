@@ -1,0 +1,25 @@
+ERROR ANALYSIS SUMMARY
+==================================================
+
+Total Errors: 893 out of 898 samples
+Error Rate: 99.44%
+
+Most Common Error Types:
+------------------------------
+Shafts → Ironbar: 219 (24.5%)
+Hex_head_screw → Brackets: 138 (15.5%)
+Hex_head_screw → Slotted_head_screw: 96 (10.8%)
+Hinges → Brackets: 76 (8.5%)
+Bolts → Socket_head_screw: 50 (5.6%)
+Shafts → Brackets: 48 (5.4%)
+Bolts → O_rings: 48 (5.4%)
+Hex_head_screw → Gears: 27 (3.0%)
+Sprockets → Brackets: 25 (2.8%)
+Hinges → Ironbar: 16 (1.8%)
+
+Confidence Distribution of Errors:
+----------------------------------------
+Mean confidence: 0.671
+Median confidence: 0.595
+Min confidence: 0.161
+Max confidence: 1.000

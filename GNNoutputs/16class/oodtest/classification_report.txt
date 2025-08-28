@@ -1,0 +1,38 @@
+CLASSIFICATION ANALYSIS REPORT
+============================================================
+
+Overall Accuracy: 0.0234 (2.34%)
+Total Samples: 898
+Number of Classes: 13
+
+True Class Distribution:
+-------------------------
+Bolts: 147 (16.4%)
+Gears: 14 (1.6%)
+Hex_head_screw: 281 (31.3%)
+Hinges: 92 (10.2%)
+Pipes: 37 (4.1%)
+Shafts: 295 (32.9%)
+Sprockets: 32 (3.6%)
+
+Detailed Classification Report:
+-----------------------------------
+                    precision    recall  f1-score   support
+
+             Bolts     0.0000    0.0000    0.0000       147
+          Brackets     0.0000    0.0000    0.0000         0
+          Bushings     0.0000    0.0000    0.0000         0
+             Gears     0.0000    0.0000    0.0000        14
+    Hex_head_screw     0.2692    0.0747    0.1170       281
+            Hinges     0.0000    0.0000    0.0000        92
+           Ironbar     0.0000    0.0000    0.0000         0
+              Nuts     0.0000    0.0000    0.0000         0
+             Pipes     0.0000    0.0000    0.0000        37
+            Shafts     0.0000    0.0000    0.0000       295
+Slotted_head_screw     0.0000    0.0000    0.0000         0
+ Socket_head_screw     0.0000    0.0000    0.0000         0
+         Sprockets     0.0000    0.0000    0.0000        32
+
+          accuracy                         0.0234       898
+         macro avg     0.0207    0.0057    0.0090       898
+      weighted avg     0.0842    0.0234    0.0366       898

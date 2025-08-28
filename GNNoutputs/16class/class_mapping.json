@@ -1,0 +1,18 @@
+{
+  "Bearings": 0,
+  "Bolts": 1,
+  "Brackets": 2,
+  "Bushings": 3,
+  "Gears": 4,
+  "Hex_head_screw": 5,
+  "Hinges": 6,
+  "Ironbar": 7,
+  "Nuts": 8,
+  "O_rings": 9,
+  "Pipes": 10,
+  "Shafts": 11,
+  "Slotted_head_screw": 12,
+  "Socket_head_screw": 13,
+  "Sprockets": 14,
+  "Washers": 15
+}

@@ -1,0 +1,25 @@
+ERROR ANALYSIS SUMMARY
+==================================================
+
+Total Errors: 653 out of 898 samples
+Error Rate: 72.72%
+
+Most Common Error Types:
+------------------------------
+Ironbar_like → Nuts: 281 (43.0%)
+Hinges → Brackets: 92 (14.1%)
+Screw_like → Toroidal_fastener: 92 (14.1%)
+Screw_like → Power_transmission: 47 (7.2%)
+Screw_like → Hinges: 39 (6.0%)
+Power_transmission → Hinges: 32 (4.9%)
+Ironbar_like → Power_transmission: 22 (3.4%)
+Ironbar_like → Screw_like: 17 (2.6%)
+Power_transmission → Screw_like: 14 (2.1%)
+Screw_like → Ironbar_like: 9 (1.4%)
+
+Confidence Distribution of Errors:
+----------------------------------------
+Mean confidence: 0.569
+Median confidence: 0.526
+Min confidence: 0.233
+Max confidence: 1.000
