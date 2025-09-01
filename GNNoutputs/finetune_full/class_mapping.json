@@ -1,0 +1,10 @@
+{
+  "Bearings": 0,
+  "Brackets": 1,
+  "Hinges": 2,
+  "Ironbar_like": 3,
+  "Nuts": 4,
+  "Power_transmission": 5,
+  "Screw_like": 6,
+  "Toroidal_fastener": 7
+}
